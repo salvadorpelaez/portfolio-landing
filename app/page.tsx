@@ -10,6 +10,15 @@ export default function Home() {
       badgeColor: "bg-blue-100 text-blue-800",
     },
     {
+      title: "Value Analytics",
+      description: "AI-powered stock valuation tool that browses S&P 500 companies, builds a personal portfolio, and runs deep analysis using Warren Buffett's 13-step VALUE framework or a Hypergrowth framework — powered by Claude Sonnet.",
+      tech: ["Claude Sonnet", "Python", "Flask", "SQLite", "Supabase", "yfinance"],
+      url: "https://value-analytics-demo-app.vercel.app/",
+      github: "https://github.com/salvadorpelaez/demo-financial-webapp",
+      badge: "AI / Finance",
+      badgeColor: "bg-emerald-100 text-emerald-800",
+    },
+    {
       title: "Quiz App",
       description: "Interactive quiz application built with Next.js and TypeScript. Demonstrates modern web development with server-side rendering, clean UI, and Vercel deployment.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
