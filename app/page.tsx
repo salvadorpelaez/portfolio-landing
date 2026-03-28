@@ -11,7 +11,7 @@ export default function Home() {
     },
     {
       title: "Value Analytics",
-      description: "AI-powered stock valuation tool that browses S&P 500 companies, builds a personal portfolio, and runs deep analysis using Warren Buffett's 13-step VALUE framework or a Hypergrowth framework — powered by Claude Sonnet.",
+      description: "AI classification model that processes historical S&P 500 data to generate directional signals (Positive/Neutral/Negative) using VALUE and Hypergrowth frameworks. Educational demo — not financial advice.",
       tech: ["Claude Sonnet", "Python", "Flask", "SQLite", "Supabase", "yfinance"],
       url: "https://value-analytics-demo-app.vercel.app/",
       github: "https://github.com/salvadorpelaez/demo-financial-webapp",
