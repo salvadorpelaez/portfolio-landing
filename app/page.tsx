@@ -10,8 +10,8 @@ export default function Home() {
       badgeColor: "bg-blue-100 text-blue-800",
     },
     {
-      title: "Value Analytics",
-      description: "AI classification model that processes historical S&P 500 data to generate directional signals (Positive/Neutral/Negative) using VALUE and Hypergrowth frameworks. Educational demo — not financial advice.",
+      title: "Financial Analytics",
+      description: "AI classification model that processes historical S&P 500 data to generate directional signals (Positive/Neutral/Negative) using value and Hypergrowth frameworks. Educational demo — not financial advice.",
       tech: ["Claude Sonnet", "Python", "Flask", "SQLite", "Supabase", "yfinance"],
       url: "https://value-analytics-demo-app.vercel.app/",
       github: "https://github.com/salvadorpelaez/demo-financial-webapp",
