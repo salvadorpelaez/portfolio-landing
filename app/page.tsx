@@ -11,7 +11,7 @@ export default function Home() {
     },
     {
       title: "Financial Analytics",
-      description: "AI classification model that processes historical S&P 500 data to generate directional signals (Positive/Neutral/Negative) using value and Hypergrowth frameworks. Educational demo — not financial advice.",
+      description: "AI classification model that processes historical S&P 500 data to generate directional signals (Positive/Neutral/Negative) using value and hypergrowth frameworks. Educational demo — not financial advice.",
       tech: ["Claude Sonnet", "Python", "Flask", "SQLite", "Supabase", "yfinance"],
       url: "https://value-analytics-demo-app.vercel.app/",
       github: "https://github.com/salvadorpelaez/demo-financial-webapp",
