@@ -19,7 +19,7 @@ export default function Home() {
       badgeColor: "bg-emerald-100 text-emerald-800",
     },
     {
-      title: "Quiz App",
+      title: "Coffee Quiz App",
       description: "Interactive quiz application built with Next.js and TypeScript. Demonstrates modern web development with server-side rendering, clean UI, and Vercel deployment.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
       url: "https://quiz-project-delta-lime.vercel.app/",
