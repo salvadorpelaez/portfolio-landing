@@ -13,7 +13,7 @@ export default function Home() {
       title: "Financial Analytics",
       description: "AI classification model that processes historical S&P 500 data to generate directional signals (Positive/Neutral/Negative) using value and hypergrowth frameworks. Educational demo — not financial advice.",
       tech: ["Claude Sonnet", "Python", "Flask", "SQLite", "Supabase", "yfinance"],
-      url: "https://value-analytics-demo-app.vercel.app/",
+      url: "https://value-analytics-demo-app.vercel.app/portfolio",
       github: "https://github.com/salvadorpelaez/demo-financial-webapp",
       badge: "AI / Finance",
       badgeColor: "bg-emerald-100 text-emerald-800",
