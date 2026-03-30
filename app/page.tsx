@@ -47,14 +47,6 @@ export default function Home() {
 
         <div className="flex gap-4 mt-5">
           <a
-            href="https://github.com/salvadorpelaez"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1"
-          >
-            GitHub →
-          </a>
-          <a
             href="https://www.linkedin.com/in/sal-pelaez-ba4a665/"
             target="_blank"
             rel="noopener noreferrer"
