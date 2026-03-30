@@ -35,8 +35,8 @@ export default function Home() {
       <header className="border-b border-gray-800 px-6 py-8 max-w-4xl mx-auto">
         <div className="flex items-start justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-white">Salvador Pelaez</h1>
-            <p className="text-gray-400 mt-2 text-lg">Product Manager · AI Builder</p>
+            <h1 className="text-3xl font-bold text-white">Sal Pelaez</h1>
+            <p className="text-gray-400 mt-2 text-lg">Project Manager · AI Builder</p>
             <p className="text-gray-500 mt-3 max-w-xl text-sm leading-relaxed">
               PM with enterprise experience building AI-powered workflows.
               Focused on multi-agent systems, compliance automation, and
