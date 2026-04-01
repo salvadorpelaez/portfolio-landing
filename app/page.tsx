@@ -96,7 +96,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex-1 text-center text-sm bg-white text-gray-900 font-medium px-4 py-3 rounded-lg hover:bg-gray-200 transition-colors"
                 >
-                  Live Demo
+                  Use It Now
                 </a>
                 <a
                   href={project.github}
