@@ -19,6 +19,15 @@ export default function Home() {
       badgeColor: "bg-emerald-100 text-emerald-800",
     },
     {
+      title: "Digital Health Compliance Auditor",
+      description: "AI-powered compliance audit tool for digital health software. Pulls live FDA regulation text from the eCFR API and uses Claude Sonnet to analyze products against HIPAA, FDA SaMD, GDPR, and 21 CFR Part 880. Demo — not legal advice.",
+      tech: ["Claude Sonnet", "Python", "Flask", "eCFR API", "HIPAA", "GDPR"],
+      url: "https://audit-app-fda.vercel.app/",
+      github: "https://github.com/salvadorpelaez/Audit-App-FDA",
+      badge: "AI / Compliance",
+      badgeColor: "bg-purple-100 text-purple-800",
+    },
+    {
       title: "Coffee Quiz App",
       description: "Interactive quiz application built with Next.js and TypeScript. Demonstrates modern web development with server-side rendering, clean UI, and Vercel deployment.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
