@@ -20,8 +20,8 @@ export default function Home() {
     },
     {
       title: "Digital Health Compliance Auditor",
-      description: "AI-powered compliance audit tool for digital health software. Pulls live FDA regulation text from the eCFR API and uses Claude Sonnet to analyze products against HIPAA, FDA SaMD, GDPR, and 21 CFR Part 880. Demo — not legal advice.",
-      tech: ["Claude Sonnet", "Python", "Flask", "eCFR API", "HIPAA", "GDPR"],
+      description: "AI-powered compliance audit platform for digital health software — two modes: product analysis against live FDA/HIPAA/GDPR regulation text via eCFR API, and a SOP comparison engine that scores two existing SOPs at the requirement level and generates a proposed third SOP that closes all identified gaps. Demo — not legal advice.",
+      tech: ["Claude Sonnet", "Python", "Flask", "eCFR API", "HIPAA", "GDPR", "SOP Analysis"],
       url: "https://audit-app-fda.vercel.app/",
       github: "https://github.com/salvadorpelaez/Audit-App-FDA",
       badge: "AI / Compliance",
