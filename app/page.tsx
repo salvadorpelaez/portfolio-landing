@@ -28,8 +28,8 @@ export default function Home() {
       badgeColor: "bg-purple-100 text-purple-800",
     },
     {
-      title: "Valerius — AI Research Platform",
-      description: "Built a full-stack, production-grade AI research application end to end to go deep on agentic architecture: multi-agent analysis pipelines (Claude Opus/Sonnet) spanning valuation, growth screening, and portfolio-thesis evaluation, a custom MCP server (FastMCP/Python) that decouples market-data retrieval into a reusable microservice, a Claude Code skill that runs an automated pre-deploy verification pass, and a compliance framework — 60+ regulatory rules enforced through disciplined prompt design across every agent, backed by a live runtime guard on the AI assistant that rewrites any response before it reaches the user. Hands-on prompt and context engineering, agent orchestration, and applying spec-and-review discipline to generative AI.",
+      title: "Valerius — AI Investment Research Platform",
+      description: "Built a full-stack, production-grade AI research platform for financial markets and investment analysis, going deep on agentic architecture end to end: multi-agent analysis pipelines (Claude Opus/Sonnet) spanning valuation, growth screening, and portfolio-thesis evaluation, a custom MCP server (FastMCP/Python) that decouples market-data retrieval into a reusable microservice, a Claude Code skill that runs an automated pre-deploy verification pass, and a compliance framework — 60+ regulatory rules enforced through disciplined prompt design across every agent, backed by a live runtime guard on the AI assistant that rewrites any response before it reaches the user. Hands-on prompt and context engineering, agent orchestration, and applying spec-and-review discipline to generative AI. Personal project — not investment advice.",
       tech: ["Claude Opus/Sonnet", "Python", "FastMCP", "Flask", "Supabase", "Claude Code"],
       url: "https://valeriusintel.ai",
       badge: "AI / Agentic Architecture",
