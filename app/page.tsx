@@ -29,8 +29,8 @@ export default function Home() {
     },
     {
       title: "Valerius — AI Research Platform",
-      description: "Built a full-stack, production-grade AI research application end to end to go deep on agentic architecture: multi-agent analysis pipelines (Claude Opus/Sonnet), a custom MCP server (FastMCP/Python) that decouples market-data retrieval into a reusable microservice, a library of purpose-built Claude Code skills for recurring workflows, and an AI compliance-audit layer that checks every model output against a rules framework before surfacing it. Hands-on prompt and context engineering, agent orchestration, and applying spec-and-review discipline to generative AI.",
-      tech: ["Claude Opus/Sonnet", "Python", "FastMCP", "Flask", "Supabase", "Claude Code Skills"],
+      description: "Built a full-stack, production-grade AI research application end to end to go deep on agentic architecture: multi-agent analysis pipelines (Claude Opus/Sonnet) spanning valuation, growth screening, and portfolio-thesis evaluation, a custom MCP server (FastMCP/Python) that decouples market-data retrieval into a reusable microservice, a Claude Code skill that runs an automated pre-deploy verification pass, and a compliance framework — 60+ regulatory rules enforced through disciplined prompt design across every agent, backed by a live runtime guard on the AI assistant that rewrites any response before it reaches the user. Hands-on prompt and context engineering, agent orchestration, and applying spec-and-review discipline to generative AI.",
+      tech: ["Claude Opus/Sonnet", "Python", "FastMCP", "Flask", "Supabase", "Claude Code"],
       url: "https://valeriusintel.ai",
       badge: "AI / Agentic Architecture",
       badgeColor: "bg-amber-100 text-amber-800",
