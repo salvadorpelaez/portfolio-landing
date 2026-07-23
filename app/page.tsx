@@ -28,6 +28,14 @@ export default function Home() {
       badgeColor: "bg-purple-100 text-purple-800",
     },
     {
+      title: "Valerius — AI Research Platform",
+      description: "Built a full-stack, production-grade AI research application end to end to go deep on agentic architecture: multi-agent analysis pipelines (Claude Opus/Sonnet), a custom MCP server (FastMCP/Python) that decouples market-data retrieval into a reusable microservice, a library of purpose-built Claude Code skills for recurring workflows, and an AI compliance-audit layer that checks every model output against a rules framework before surfacing it. Hands-on prompt and context engineering, agent orchestration, and applying spec-and-review discipline to generative AI.",
+      tech: ["Claude Opus/Sonnet", "Python", "FastMCP", "Flask", "Supabase", "Claude Code Skills"],
+      url: "https://valeriusintel.ai",
+      badge: "AI / Agentic Architecture",
+      badgeColor: "bg-amber-100 text-amber-800",
+    },
+    {
       title: "Coffee Quiz App",
       description: "Interactive quiz application built with Next.js and TypeScript. Demonstrates modern web development with server-side rendering, clean UI, and Vercel deployment.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
@@ -107,14 +115,16 @@ export default function Home() {
                 >
                   Use It Now
                 </a>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 text-center text-sm border border-gray-700 text-gray-400 font-medium px-4 py-3 rounded-lg hover:border-gray-500 hover:text-gray-200 transition-colors"
-                >
-                  GitHub
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 text-center text-sm border border-gray-700 text-gray-400 font-medium px-4 py-3 rounded-lg hover:border-gray-500 hover:text-gray-200 transition-colors"
+                  >
+                    GitHub
+                  </a>
+                )}
               </div>
             </div>
           ))}
