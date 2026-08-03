@@ -37,7 +37,7 @@ export default function Home() {
     },
     {
       title: "Covered Call Analyzer",
-      description: "Live option-chain analysis for covered calls — strike ladder with delta, implied volatility, open interest, and both static and if-called returns, plus payoff diagrams at expiry and annualized yield across the expiration calendar. Not an AI product; the point is the build. Mockup to deployed tool in a single session with Claude Code, including the parts that usually get skipped: catching two defects that only live market data exposes — deep in-the-money implied volatility running delta backwards, and a strike window silently mis-targeting the expiration calendar — and picking the host on measured cache behavior rather than habit. Analysis only — not financial advice.",
+      description: "Live option-chain analysis for covered calls — strike ladder with delta, implied volatility, open interest, and both static and if-called returns, plus payoff diagrams at expiry and annualized yield across the expiration calendar. AI built it fast: mockup to deployed tool in a single session with Claude Code. There is no AI in the product itself — the speed bought time for verification, which is where the work actually was. Live chains exposed implied volatility running delta backwards, and default filters quietly hiding most of the ladder. Analysis only — not financial advice.",
       tech: ["Claude Code", "Python", "Flask", "yfinance", "Black-Scholes", "Railway"],
       url: "https://web-production-9a957.up.railway.app",
       badge: "Built with Claude Code",
