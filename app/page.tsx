@@ -36,6 +36,14 @@ export default function Home() {
       badgeColor: "bg-amber-100 text-amber-800",
     },
     {
+      title: "Covered Call Analyzer",
+      description: "Live option-chain analysis for covered calls — strike ladder with delta, implied volatility, open interest, and both static and if-called returns, plus payoff diagrams at expiry and annualized yield across the expiration calendar. Not an AI product; the point is the build. Mockup to deployed tool in a single session with Claude Code, including the parts that usually get skipped: catching two defects that only live market data exposes — deep in-the-money implied volatility running delta backwards, and a strike window silently mis-targeting the expiration calendar — and picking the host on measured cache behavior rather than habit. Analysis only — not financial advice.",
+      tech: ["Claude Code", "Python", "Flask", "yfinance", "Black-Scholes", "Railway"],
+      url: "https://web-production-9a957.up.railway.app",
+      badge: "Built with Claude Code",
+      badgeColor: "bg-teal-100 text-teal-800",
+    },
+    {
       title: "Coffee Quiz App",
       description: "Interactive quiz application built with Next.js and TypeScript. Demonstrates modern web development with server-side rendering, clean UI, and Vercel deployment.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
