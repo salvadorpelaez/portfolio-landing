@@ -36,9 +36,9 @@ export default function Home() {
       badgeColor: "bg-amber-100 text-amber-800",
     },
     {
-      title: "Covered Call Analyzer",
-      description: "Live option-chain analysis for covered calls — strike ladder with delta, implied volatility, open interest, and both static and if-called returns, plus payoff diagrams at expiry and annualized yield across the expiration calendar. AI built it fast: mockup to deployed tool in a single session with Claude Code. There is no AI in the product itself — the speed bought time for verification, which is where the work actually was. Live chains exposed implied volatility running delta backwards, and default filters quietly hiding most of the ladder. Analysis only — not financial advice.",
-      tech: ["Claude Code", "Python", "Flask", "yfinance", "Black-Scholes", "Railway"],
+      title: "Options Lab",
+      description: "Two option-analysis tools behind one front door — a covered-call analyzer for calls written against stock you own, and a screener that ranks post-IPO growth names, then prices their long-dated calls strike by strike. The second tool exists because the first one answered a different question than the one I was asking: it quoted premiums off the bid, which is what a seller collects, and reading that as a buyer understated one contract by $450. Fixing it meant a separate buyer's view, not a patch — breakeven is strike plus premium, and at eighteen months delta overstates the chance of profit by 44 to 62 points. Consolidating the two was the rest of the work: two services became one, with a single acknowledgment gate, session-keyed rate limiting and a shared header, without rewriting either app. Two defects surfaced that would have shipped silently — a data path that would have split an archive that cannot be rebuilt, and an import order that ran a 43-ticker market sweep every time the server booted. Analysis only — not investment advice.",
+      tech: ["Claude Code", "Python", "Flask", "yfinance", "Black-Scholes", "WSGI", "Railway"],
       url: "https://web-production-9a957.up.railway.app",
       badge: "Built with Claude Code",
       badgeColor: "bg-teal-100 text-teal-800",
